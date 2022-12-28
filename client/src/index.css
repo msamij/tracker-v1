@@ -1,0 +1,53 @@
+:root {
+  --color-primary-1: #ffb4a2;
+  --color-primary-2: #f4a261;
+
+  --color-light-1: #fff;
+  --color-light-2: #f0f0f1;
+  --color-light-3: #f7f8f9;
+  --color-light-4: #f3f4f5;
+  --color-light-5: #f9f5f3;
+
+  --color-grey: #808080;
+
+  --color-secondary-1: #26c6da;
+  --color-secondary-2: #f06292;
+  --color-secondary-3: #4ebeba;
+
+  --color-gold: #866118;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: inherit;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#root {
+  height: 100%;
+  line-height: 1.5;
+}
+
+.heading {
+  font-family: inherit;
+}
+.btn {
+  font-family: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.btn:focus {
+  outline: none;
+}

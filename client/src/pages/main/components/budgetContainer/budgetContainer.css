@@ -1,0 +1,217 @@
+.budget-container {
+  box-shadow: 0 8px 32px 0 rgb(0 0 0 / 20%);
+  border-radius: 5px;
+  min-height: 110rem;
+  max-width: 110rem;
+  margin: 0 auto;
+  background-color: var(--color-light-2);
+  display: grid;
+  grid-template-rows:
+    [header-start] 10rem [header-end main-1-start] minmax(48rem, min-content) [main-1-end main-2-start] minmax(
+      46rem,
+      min-content
+    )
+    [main-2-end footer-start] minmax(6rem, min-content) [footer-end];
+}
+
+.header {
+  grid-row: header-start / header-end;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  padding: 1.5rem 5rem;
+  background: var(--color-light-2);
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.header__logout-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1.3rem;
+  padding: 1rem 2.5rem;
+  border-radius: 3px;
+  transition: all 0.3s;
+  height: min-content;
+  text-transform: uppercase;
+  color: var(--color-light-1);
+  justify-self: center;
+  background-color: var(--color-primary-2);
+}
+
+.header__logout-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 30px 0 rgb(0 0 0 / 8%);
+}
+.header__logout-btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 15px 30px 0 rgb(0 0 0 / 4%);
+}
+.header__logout-btn:focus {
+  outline: none;
+}
+
+.budget-month {
+  text-align: center;
+  height: min-content;
+  padding-top: 5rem;
+}
+
+.heading {
+  font-family: inherit;
+  font-size: 2.2rem;
+  font-weight: 300;
+  color: var(--color-grey);
+}
+
+.income-box {
+  grid-row: main-1-start / main-1-end;
+  background: var(--color-light-2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 5rem 0; */
+}
+
+.box-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5.5rem;
+}
+
+.box-left {
+  display: grid;
+  grid-template-rows: repeat(4, min-content);
+  grid-row-gap: 1.5rem;
+}
+.btn-primary {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1.3rem;
+  padding: 1rem 2.5rem;
+  border-radius: 3px;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  color: var(--color-light-1);
+  justify-self: center;
+}
+.btn-primary--blue {
+  background-color: var(--color-secondary-3);
+}
+.heading-secondary--blue {
+  font-family: inherit;
+  color: var(--color-secondary-3);
+}
+.heading-secondary {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  justify-self: center;
+}
+.items-box {
+  display: flex;
+}
+.items-box__item {
+  color: var(--color-light-1);
+  border-radius: 3px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 0.8rem 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  min-width: 38rem;
+  align-items: center;
+  margin: 0 1.4rem;
+}
+.income-box__income {
+  background-color: var(--color-secondary-3);
+}
+.action-box {
+  width: 8rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-secondary {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s;
+}
+.trash,
+.pencil {
+  color: var(--color-light-1);
+}
+
+.items-box--text {
+  margin: 0;
+}
+
+.box-right {
+  display: grid;
+  grid-template-rows: repeat(4, min-content);
+  grid-row-gap: 1.5rem;
+}
+
+.btn-primary--orange {
+  background-color: var(--color-primary-2);
+}
+
+.heading-secondary--orange {
+  color: var(--color-primary-2);
+  font-family: inherit;
+}
+
+.category {
+  display: flex;
+}
+.category__item {
+  display: flex;
+  padding: 0.3rem 0.5rem;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  transition: all 0.3s;
+  margin: 0 0.7rem;
+}
+.category__title,
+.category__date {
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: var(--color-primary-2);
+  padding: 0.6rem 2rem;
+  cursor: pointer;
+  margin: 0;
+}
+.trash-orange,
+.pencil-orange {
+  color: var(--color-primary-2);
+}
+
+.expense-box {
+  grid-row: main-2-start / main-2-end;
+  background: var(--color-light-5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7rem 0;
+}
+.btn-primary--red {
+  background-color: var(--color-secondary-2);
+}
+.heading-secondary--red {
+  color: var(--color-secondary-2);
+}
+.expense-box__expense {
+  background-color: var(--color-secondary-2);
+}
