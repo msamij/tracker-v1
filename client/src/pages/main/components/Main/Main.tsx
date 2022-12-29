@@ -1,4 +1,4 @@
-import BudgetContainer from '../budgetContainer/budgetContainer';
+import BudgetContainer from './BudgetContainer/BudgetContainer';
 import './main.css';
 
 function Main() {

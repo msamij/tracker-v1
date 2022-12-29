@@ -1,7 +1,7 @@
-import AuthContainer from '@Auth/AuthContainer';
+import Main from '@Main/Main';
 
 function App() {
-  return <AuthContainer />;
+  return <Main />;
 }
 
 export default App;

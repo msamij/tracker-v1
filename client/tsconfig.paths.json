@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
-    "baseUrl": "./src/pages/",
+    "baseUrl": ".",
     "paths": {
-      "@Auth/*": ["auth/components/AuthContainer/*"]
+      "@Auth/*": ["./src/pages/auth/components/AuthContainer/*"],
+      "@Main/*": ["./src/pages/main/components/Main/*"]
     }
   }
 }
