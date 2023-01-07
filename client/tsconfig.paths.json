@@ -2,8 +2,14 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
+      "@Common/*": ["./src/common/components/*"],
+
       "@Auth/*": ["./src/pages/auth/components/AuthContainer/*"],
-      "@Main/*": ["./src/pages/main/components/Main/*"]
+
+      "@Main/*": ["./src/pages/main/components/Main/*"],
+      "@BudgetContainer/*": ["./src/pages/main/components/Main/BudgetContainer/*"],
+      "@ItemContainer/*": ["./src/pages/main/components/Main/BudgetContainer/ItemContainer/*"],
+      "@Item/*": ["./src/pages/main/components/Main/BudgetContainer/ItemContainer/ItemGrid/Item/*"]
     }
   }
 }

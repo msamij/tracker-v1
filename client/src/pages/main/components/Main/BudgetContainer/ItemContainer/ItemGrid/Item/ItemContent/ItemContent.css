@@ -1,0 +1,30 @@
+.item-content {
+  display: flex;
+}
+.item-content__item {
+  color: var(--color-light-1);
+  border-radius: 3px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 0.8rem 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  min-width: 38rem;
+  align-items: center;
+  margin: 0 1.4rem;
+}
+.item-content__item--blue {
+  background-color: var(--color-secondary-3);
+}
+.item-content__item--orange {
+  background-color: var(--color-primary-2);
+}
+.item-content__item--red {
+  background-color: var(--color-secondary-2);
+}
+
+.item-content__actions {
+  width: 8rem;
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,5 +1,5 @@
-import BudgetContainer from './BudgetContainer/BudgetContainer';
-import './main.css';
+import BudgetContainer from '@BudgetContainer/BudgetContainer';
+import './Main.css';
 
 function Main() {
   return (

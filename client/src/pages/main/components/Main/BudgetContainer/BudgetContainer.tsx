@@ -1,13 +1,13 @@
-import './budgetContainer.css';
+import BudgetHeader from '@BudgetContainer/BudgetHeader/BudgetHeader';
+import BudgetIncomeContainer from '@BudgetContainer/BudgetIncomeContainer/BudgetIncomeContainer';
+import './BudgetContainer.css';
 
 function BudgetContainer() {
   return (
-    <div className="budget-container">
-      <header className="header">
-        <button className="header__logout-btn">Log out</button>
-      </header>
-
-      <section className="income-box">
+    <div className="budget__container">
+      <BudgetHeader />
+      <BudgetIncomeContainer />
+      {/* <section className="income-box">
         <div className="budget-month">
           <h2 className="heading">July 2022</h2>
           <h2 className="heading budget-heading">
@@ -95,7 +95,7 @@ function BudgetContainer() {
             </form>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

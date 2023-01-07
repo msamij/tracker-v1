@@ -1,0 +1,11 @@
+.budget__header {
+  grid-row: header-start / header-end;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  padding: 1.5rem 5rem;
+  background: var(--color-light-2);
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
