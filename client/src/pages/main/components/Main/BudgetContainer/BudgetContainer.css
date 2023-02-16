@@ -60,12 +60,12 @@
   padding-top: 5rem;
 }
 
-.heading {
+/* .heading {
   font-family: inherit;
   font-size: 2.2rem;
   font-weight: 300;
   color: var(--color-grey);
-}
+} */
 
 .income-box {
   grid-row: main-1-start / main-1-end;

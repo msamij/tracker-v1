@@ -9,7 +9,8 @@
       "@Main/*": ["./src/pages/main/components/Main/*"],
       "@BudgetContainer/*": ["./src/pages/main/components/Main/BudgetContainer/*"],
       "@ItemContainer/*": ["./src/pages/main/components/Main/BudgetContainer/ItemContainer/*"],
-      "@Item/*": ["./src/pages/main/components/Main/BudgetContainer/ItemContainer/ItemGrid/Item/*"]
+      "@Item/*": ["./src/pages/main/components/Main/BudgetContainer/ItemContainer/ItemGrid/Item/*"],
+      "@Footer/*": ["./src/pages/main/components/Main/BudgetContainer/BudgetFooter/*"]
     }
   }
 }

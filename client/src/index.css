@@ -42,6 +42,9 @@ body {
 /* COMMON HEADING STYLES */
 .heading {
   font-family: inherit;
+  font-size: 2.2rem;
+  font-weight: 300;
+  color: var(--color-grey);
 }
 
 .heading--bold {

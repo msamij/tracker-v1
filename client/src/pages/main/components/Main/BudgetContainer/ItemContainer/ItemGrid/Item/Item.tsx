@@ -1,9 +1,15 @@
 import Button from '@Common/Button/Button';
 import Heading from '@Common/Heading/Heading';
 import ItemContent from '@Item/ItemContent/ItemContent';
-import { IItem } from '@ItemContainer/type';
 
-function Item(props: IItem) {
+interface IItemProps {
+  btnText: string;
+  headingText: string;
+  color: 'blue' | 'orange' | 'red';
+  itemColor: 'blue' | 'red' | 'orange';
+}
+
+function Item(props: IItemProps) {
   return (
     <>
       <Button btnColor={props.color} btnText={props.btnText} />

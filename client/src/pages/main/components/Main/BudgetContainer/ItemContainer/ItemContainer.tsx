@@ -2,11 +2,16 @@ import ItemGrid from '@ItemContainer/ItemGrid/ItemGrid';
 import React from 'react';
 import './ItemContainer.css';
 
-function ItemContainer() {
+interface IItemContainerProps {
+  componentLeft: React.ReactNode;
+  componentRight: React.ReactNode;
+}
+
+function ItemContainer(props: IItemContainerProps) {
   return (
     <div className="item-container">
-      <ItemGrid btnText="Add Income" color="blue" headingText="Incomes" itemColor="blue" />
-      <ItemGrid btnText="Add Income Categories" color="orange" headingText="Categories" itemColor="orange" />
+      <ItemGrid component={props.componentLeft} />
+      <ItemGrid component={props.componentRight} />
     </div>
   );
 }

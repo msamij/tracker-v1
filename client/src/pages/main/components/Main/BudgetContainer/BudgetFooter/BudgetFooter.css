@@ -1,0 +1,16 @@
+.footer {
+  grid-row: footer-start / footer-end;
+  background-color: var(--color-light-5);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__copyright {
+  font-size: 1.2rem;
+  color: var(--color-grey);
+}
+.footer__link {
+  color: var(--color-grey);
+}
