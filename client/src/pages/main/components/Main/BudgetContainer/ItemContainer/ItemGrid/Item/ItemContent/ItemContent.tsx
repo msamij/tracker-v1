@@ -1,5 +1,5 @@
 import ItemText from '@Item/ItemContent/itemText/ItemText';
-import ActionButton from '@Item/ItemContent/actionButton/actionButton';
+import IconButton from '@Item/ItemContent/actionButton/actionButton';
 import './ItemContent.css';
 
 function ItemContent(props: { itemColor: 'blue' | 'orange' | 'red' }) {
@@ -8,10 +8,12 @@ function ItemContent(props: { itemColor: 'blue' | 'orange' | 'red' }) {
       <div className={`item-content__item item-content__item--${props.itemColor}`}>
         <ItemText />
         <div className="item-content__actions">
-          <ActionButton btnType="trash" />
-          <ActionButton btnType="pencil" />
+          <IconButton icon="trash" />
+          <IconButton icon="pencil" />
         </div>
       </div>
+
+      <IconButton icon="angle right" color="blue" />
     </div>
   );
 }

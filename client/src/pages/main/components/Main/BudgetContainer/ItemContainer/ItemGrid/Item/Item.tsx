@@ -12,8 +12,8 @@ interface IItemProps {
 function Item(props: IItemProps) {
   return (
     <>
-      <Button btnColor={props.color} btnText={props.btnText} />
-      <Heading headingColor={props.color} headingText={props.headingText} headingType="bold" />
+      {/* <Button btnColor={props.color} btnText={props.btnText} /> */}
+      <Heading color={props.color} text={props.headingText} weight="bold" />
       <ItemContent itemColor={props.itemColor} />
     </>
   );

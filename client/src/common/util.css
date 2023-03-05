@@ -1,0 +1,19 @@
+.color--blue {
+  color: var(--color-secondary-3);
+}
+.color--orange {
+  color: var(--color-primary-2);
+}
+.color--red {
+  color: var(--color-secondary-2);
+}
+
+.background--orange {
+  background-color: var(--color-primary-2);
+}
+.background--blue {
+  background-color: var(--color-secondary-3);
+}
+.background--red {
+  background-color: var(--color-secondary-2);
+}

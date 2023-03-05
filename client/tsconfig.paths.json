@@ -4,7 +4,7 @@
     "paths": {
       "@Common/*": ["./src/common/components/*"],
 
-      "@Auth/*": ["./src/pages/auth/components/AuthContainer/*"],
+      "@AuthContainer/*": ["./src/pages/auth/components/AuthContainer/*"],
 
       "@Main/*": ["./src/pages/main/components/Main/*"],
       "@BudgetContainer/*": ["./src/pages/main/components/Main/BudgetContainer/*"],

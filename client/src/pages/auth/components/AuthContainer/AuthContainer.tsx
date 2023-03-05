@@ -1,4 +1,4 @@
-import Auth from '@Auth/Auth/Auth';
+import Auth from '@AuthContainer/Auth/Auth';
 import './AuthContainer.css';
 
 function AuthContainer() {

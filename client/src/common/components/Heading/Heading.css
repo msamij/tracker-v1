@@ -1,0 +1,6 @@
+.heading--bold {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  justify-self: center;
+}

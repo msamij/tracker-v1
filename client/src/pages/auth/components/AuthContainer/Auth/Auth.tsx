@@ -1,6 +1,6 @@
-import AuthFooter from '@Auth/AuthFooter/AuthFooter';
-import AuthHeader from '@Auth/AuthHeader/AuthHeader';
-import GoogleAuthButton from '@Auth/GoogleAuthButton/GoogleAuthButton';
+import AuthFooter from '@AuthContainer/Auth/AuthFooter/AuthFooter';
+import AuthHeader from '@AuthContainer/Auth/AuthHeader/AuthHeader';
+import GoogleAuthButton from '@AuthContainer/Auth/GoogleAuthButton/GoogleAuthButton';
 import './Auth.css';
 
 function Auth() {

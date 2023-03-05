@@ -1,5 +1,6 @@
 .item-content {
   display: flex;
+  align-items: center;
 }
 .item-content__item {
   color: var(--color-light-1);

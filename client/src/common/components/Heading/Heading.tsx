@@ -1,15 +1,12 @@
-interface IHeadingProps {
-  headingText: string;
-  headingType: 'bold' | 'normal';
-  headingColor: 'orange' | 'red' | 'blue';
-}
+import { BaseStyleType } from 'src/common/type';
+import './Heading.css';
 
-function Heading(props: IHeadingProps) {
-  return (
-    <h2 className={`heading heading--${props.headingColor} ${props.headingType === 'bold' && `heading--bold`}`}>
-      {props.headingText}
-    </h2>
-  );
+type HeadingProps = BaseStyleType & {
+  weight: 'bold' | 'normal';
+};
+
+function Heading(props: HeadingProps) {
+  return <h2 className={`heading--${props.color} ${props.weight === 'bold' && `heading--bold`}`}>{props.text}</h2>;
 }
 
 export default Heading;
